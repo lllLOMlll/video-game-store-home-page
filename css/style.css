@@ -1,0 +1,86 @@
+/* Align button with text */
+button, select {
+    margin-left: -13px;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+/* Margin top for h4 (CATEGORY 1, 2, 3, 4, 5) */
+.mt-2 {
+    margin-top: 1.5rem !important;
+}
+
+/* I want the menu to take all the space in the "x" axis */
+.container-fluid {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0rem);
+    padding-left: var(--bs-gutter-x, 0rem);
+}
+
+/* I want the menu bar slighty left */
+.navbar-brand {
+    margin-left: -10%;
+}
+
+/* Ajust the menu the the left by removing this line --> justify-content: space-between;  */
+.navbar {
+    justify-content: flex-start; 
+
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #a6a6a6;
+}
+
+.image-logo {
+    width: 50%;
+}
+
+.card-body {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/* Review */
+.col-10 {
+    flex: 0 0 auto;
+    width: 90%;
+    padding-left: 66px;
+}
+
+.review-text {
+    font-size: 12px;
+}
+
+.review-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.time {
+    font-size:14px;
+    margin-left: 10px;
+    color: #999999;
+}
+
+.review-space {
+    margin-top: -10px;
+}
+
+/* Make some space between the pills */
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* About the programmer */
+.about {
+    width: 50%;
+}
